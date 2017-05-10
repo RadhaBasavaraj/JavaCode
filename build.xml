@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="HelloWorld" default="run">
+	<target name="run" depends="compile">
+		<java classname="Hello">
+			<classpath path="C:/Radha/SVB/GIT/JavaCode"/>
+		</java>
+	</target>
+ 
+ 	<target name="compile">
+		<javac srcdir="C:/Radha/SVB/GIT/JavaCode" destdir="C:/Radha/SVB/GIT/JavaCode" />
+	</target>
+
+</project>
